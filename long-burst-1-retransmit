@@ -1,0 +1,2 @@
+"No.","Time","Source","Destination","Protocol","Length","Info"
+"41570","127.124867","173.194.2.141","192.168.1.16","TCP","1486","[TCP Retransmission] 443  >  61777 [ACK] Seq=38358463 Ack=33613 Win=551 Len=1420 TSval=1944831749 TSecr=389034825"
