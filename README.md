@@ -5,11 +5,11 @@ Analyzes a medium-traffic wireless local area network with packet sniffing in [W
 
 ## Contents
 
-#### Assignment
+### Assignment
 
 - [assn.pdf](https://github.com/Chatatata/CompComHW2/blob/master/assn.pdf): Assignment given in PDF format.
 
-#### Report
+### Report
 
 - [report.md](https://github.com/Chatatata/CompComHW2/blob/master/report.md): First draft of the report written in [Markdown].
 
@@ -17,7 +17,7 @@ Analyzes a medium-traffic wireless local area network with packet sniffing in [W
 
 - [report.pdf](https://github.com/Chatatata/CompComHW2/blob/master/report.pdf): Final report in PDF format. *You might better look for this.*
 
-#### Wireshark PCAP files
+### PCAP files
 
 ##### Short-burst
 
@@ -27,7 +27,7 @@ Analyzes a medium-traffic wireless local area network with packet sniffing in [W
 
 - [long-burst.pcap](https://github.com/Chatatata/CompComHW2/blob/master/long-burst.pcap): Captured packets to be analyzed in [Wireshark] during long-burst.
 
-#### CSV files
+### CSV files
 
 ##### Short-burst
 
@@ -42,6 +42,22 @@ Analyzes a medium-traffic wireless local area network with packet sniffing in [W
 ##### Long-burst
 
 - [long-burst-1-retransmit](https://github.com/Chatatata/CompComHW2/blob/master/long-burst-1-retransmit): Retransmitted packets during long-burst.
+
+### Graphs
+
+##### Short-burst
+
+- [rtt-http.png](https://github.com/Chatatata/CompComHW2/blob/master/rtt-http.png): Round-trip time graph of HTTP transmission.
+
+##### Long-burst
+
+- [long-burst.png](https://github.com/Chatatata/CompComHW2/blob/master/long-burst-png): Round-trip time graph of video transmission.
+
+### Why there are so many files?
+
+The report is written in [Markdown] format, and then converted to HTML, which is copied to [Pages] and reformatted/styled.
+
+In order to show packets in report, filtered results in [Wireshark] are saved in CSV (comma-seperated values) format and converted to [Markdown] tables with a formatter.
 
 ## License
 
